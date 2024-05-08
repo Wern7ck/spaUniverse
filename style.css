@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 65.5%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+
+#menu{
+    display: flex;
+    align-items: flex-start;
+    gap: 3.2rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    background: none;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #757575;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+a:hover,
+a:focus,
+a:active{
+    font-weight: bold;
+    color: white;
+}
+
+#selected{
+    font-weight: bold;
+    color: white;
+}
+
+.home{
+    display: grid;
+    place-items: center;
+    background: url(img/mountains-universe.png) no-repeat center fixed;
+    background-size: cover;
+    width: 100%;
+
+}
+
+.home h1{
+    font-size: 4.8rem;
+    font-weight: bold;
+    color: white;
+    margin-top: 31rem;
+}
+
+.home button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: .5rem;
+    padding: 1em 3.2rem;
+    text-transform: uppercase;
+    margin-top: 2.4rem;
+    cursor: pointer;
+}
+
+.home button:hover{
+    background: white;
+    color: #02799D;
+}
+
+.universe {
+    background: url(img/mountains-universe02.png) no-repeat center fixed;
+    background-size: cover;
+  }
+
+
+.universe-wrapper{
+    margin-top: 10rem;
+    text-align: left;
+    margin-left: 8rem;
+    width: 54.8rem;
+}
+
+.universe h1{
+
+    font-size: 4.8rem;
+    color: white;
+    margin: 1.6rem;
+
+
+}
+
+.universe p{
+    color: white;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+}
+
+.exploration {
+    background: url(img/mountains-universe-3.png) no-repeat center fixed;
+    background-size: cover;
+  }
+
+.exploration-wrapper{
+    margin-top: 10rem;
+    text-align: left;
+    margin-left: 8rem;
+    width: 60.8rem;
+}
+
+.exploration p{
+    color: white;
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+}
+
+.exploration h1{
+
+    font-size: 4.8rem;
+    color: white;
+    margin: 1.6rem;
+
+
+}
